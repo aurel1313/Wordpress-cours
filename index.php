@@ -46,10 +46,10 @@ Ici votre contenu
         </div>
     </div>
     </div>
-
+ 
        <?php } ?>
-    
-   
+    <?php dietetique_pagination(); ?>
+       
     <?php else: ?>
     <p>Il n'y a aucun article.</p>
     <?php endif; ?>
