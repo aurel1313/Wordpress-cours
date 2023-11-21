@@ -35,7 +35,7 @@ Ici votre contenu
        the_post( ); ?>
     <div class ='col-4'>
         <div class='card' >
-        <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );?>
+        <img src="<?php the_post_thumbnail_url('card-header'); ?>" class="card-img-top" style="height: 230px">
        <div class='card-body'>
        <?php the_title(); ?> - Auteur:<?php the_author(); ?>
         <a href = <?php the_permalink() ?> class='btn btn-primary'>Voir article</a>
